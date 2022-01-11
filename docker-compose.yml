@@ -3,7 +3,7 @@ version: "3.7"
 services:
   userge:
       build:
-        context: https://github.com/TeamUltroid/Ultroid.git#dev
+        context: https://github.com/TeamUltroid/Ultroid
       restart: on-failure
       env_file:
         - .env
